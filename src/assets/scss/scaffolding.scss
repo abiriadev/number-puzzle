@@ -3,3 +3,9 @@ body,
 main {
     background-color: #1e1f1f;
 }
+
+@mixin bo($color: red, $width: 2px, $style: solid) {
+    border-color: $color;
+    border-width: $width;
+    border-style: $style;
+}

@@ -1,0 +1,10 @@
+@mixin center($inline: 'no') {
+    @if ($inline == 'inline') {
+        display: inline-flex;
+    } @else {
+        display: flex;
+    }
+
+    justify-content: center;
+    align-items: center;
+}
