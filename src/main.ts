@@ -1,7 +1,9 @@
-import App from './App.svelte'
+import App from './components/App.svelte'
 import './assets/scss/vars.scss'
 import './assets/scss/reset.scss'
 import '@/assets/scss/scaffolding.scss'
+
+import {rando} from "@nastyox/rando.js"
 
 const app = new App({
     target: document.body,
